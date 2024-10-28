@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css" />
+    <title>Agenda</title>
+</head>
+<body>
+    <div ckass="container">
+    <header>
+        <img src="./images/agenda.png" alt="ícone de agenda">
+        <h2>Agenda telefônica</h2>
+    </header>
+    <form id="formAgenda">
+        <label>
+            <img src="./images/add-user.png" alt="Ícone usuário">
+        </label>
+        <input id="nomeContato" type="text" required placeholder="Nome" />
+        <label>
+            <img src="./images/telephone.png" alt="Ícone Telefone">
+        </label>
+        <input id="telefoneContato" type="tel" required placeholder="Telefone com DDD" />
+        <button type="submit">Adicionar +</button>
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Número</th>
+        </tr>
+    </thead>
+        <tbody>
+            <tr></tr>
+        </tbody>
+    </table>
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
